@@ -18,7 +18,16 @@ public class Principal {
 		String autor;
 		int numPag, menuPrin, indice;
 		float precio;
+
+
+               // Realizando nueva funcionalidad
+		float numero1= 3.1416f;
+		System.out.println("el resultado de pi es " +numero1);
+		System.out.println("mensaje de prueba");
 		
+
+
+
 		Libros libro;
 		
 		LogicaMetodos imp = new LogicaMetodos();
@@ -50,7 +59,7 @@ public class Principal {
 					lectura = new Scanner(System.in);
 					titulo = lectura.nextLine();
 					
-					System.out.println("ingrese el año de publicacion");
+					System.out.println("ingrese el a o de publicacion");
 					lectura = new Scanner(System.in);
 					anioPubli = lectura.nextInt();
 					
